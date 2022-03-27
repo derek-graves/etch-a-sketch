@@ -1,9 +1,11 @@
 #sketch-area {
-  margin: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  aspect-ratio: 1 / 1;
   background-color: rgb(240,240,240);
+}
+
+.pixel {
+  aspect-ratio: 1 / 1;
+  background-color: rgb(200, 200, 200);
 }
