@@ -1,18 +1,47 @@
+body {
+  margin: 0;
+}
+
+:root {
+  --color: rgb(100, 100, 100);
+  --background-color: rgb(240, 240, 240);
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#reset {
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 16px 0px;
+  background-color: var(--background-color);
+  color: var(--color);
+  border-radius: 12px;
+  border: 0px;
+}
+
+#reset:active {
+  background-color: var(--color);
+  color: var(--background-color);
+
+}
+
 #sketch-area {
   display: flex;
   flex-wrap: wrap;
   aspect-ratio: 1 / 1;
-  background-color: rgb(240,240,240);
+  background-color: var(--background-color);
+  border-radius: 36px;
+  overflow: hidden;
 }
 
 .pixel {
   aspect-ratio: 1 / 1;
 }
 
-.pixel:hover {
-  background-color: rgb(100,100,100);
-}
-
 .filled {
-  background-color: rgb(100,100,100);
+  background-color: var(--color);
 }
