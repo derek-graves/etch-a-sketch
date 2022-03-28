@@ -7,5 +7,12 @@
 
 .pixel {
   aspect-ratio: 1 / 1;
-  background-color: rgb(200, 200, 200);
+}
+
+.pixel:hover {
+  background-color: rgb(100,100,100);
+}
+
+.filled {
+  background-color: rgb(100,100,100);
 }
