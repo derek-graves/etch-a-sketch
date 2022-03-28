@@ -21,12 +21,12 @@ body {
   color: var(--color);
   border-radius: 12px;
   border: 0px;
+  padding: 4px 8px;
 }
 
 #reset:active {
   background-color: var(--color);
   color: var(--background-color);
-
 }
 
 #sketch-area {
